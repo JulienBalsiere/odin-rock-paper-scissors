@@ -8,3 +8,9 @@ function getComputerChoice() {
   if (random === 1) return "Paper";
   return "Scissors";
 }
+
+// Fonction qui permet de récupérer le choix de l'utilisateur
+function getHumanChoice() {
+  let playerChoice = window.prompt("Choose between Rock, Paper or Scissors");
+  return playerChoice;
+}
